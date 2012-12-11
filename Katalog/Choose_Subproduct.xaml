@@ -1,0 +1,14 @@
+﻿<Window x:Class="Katalog.Choose_Subproduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Choose_Subproduct" Height="318.685" Width="620.761">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="221*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="gridChoose" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.49,0.543" Height="223" Width="583" Margin="10,10,0,0" Grid.ColumnSpan="2"/>
+        <Button Content="Add subproduct" HorizontalAlignment="Left" VerticalAlignment="Top" Width="97" Grid.Column="1" Margin="10,257,0,0" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

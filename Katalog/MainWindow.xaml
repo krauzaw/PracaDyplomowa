@@ -1,0 +1,16 @@
+﻿<Window x:Class="Katalog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Katalog - Main Window" Height="597.059" Width="1159.336">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" Height="567" LastChildFill="False" VerticalAlignment="Top" Width="195" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="51,181,0,0" Click="Button_Click_1" TabIndex="3"/>
+
+        <DataGrid Name="ddd" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Height="306" Width="903" CanUserDeleteRows="False" CanUserAddRows="False" IsReadOnly="True" SelectionMode="Single" SelectionChanged="ddd_SelectionChanged"/>
+        <DataGrid Name="detailsGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="209" Width="430" Margin="221,348,0,0"/>
+        <DataGrid Name="subprodGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="209" Width="442" Margin="682,348,0,0"/>
+        <Label Content="Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,322,0,0"/>
+        <Label Content="Subroducts" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="682,321,0,0"/>
+
+    </Grid>
+</Window>
