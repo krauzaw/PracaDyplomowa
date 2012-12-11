@@ -77,7 +77,6 @@
     <Compile Include="Choose_Subproduct.xaml.cs">
       <DependentUpon>Choose_Subproduct.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Classes\AddToDatabase.cs" />
     <Compile Include="Classes\DatabaseFile.cs" />
     <Compile Include="Classes\DictClass.cs" />
